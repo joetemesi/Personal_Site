@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg, #FF00CC, #333399);
+    background: linear-gradient(300deg, #333399,#333399);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     
@@ -15,4 +15,12 @@
     100% {
       background-position: 0% 50%;
     }
+  }
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .nav-link {
+    color: white;
   }
