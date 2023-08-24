@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg, #333399,#333399);
+    background: linear-gradient(300deg, #13274F,#13274F);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
     
@@ -22,5 +22,35 @@
   }
 
   .nav-link {
+    color: white;
+  }
+
+  .codingimage {
+    height: 5vh;
+    width: 5vh;
+    align-self: end;
+    margin-right: 50px;
+  }
+
+  #right {
+    text-align: right;
+  }
+  .top-section {
+    background-color:#13274F;
+  }
+
+  #center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-height: fit-content;
+  }
+  .img-fluid {
+    width: 120vh;
+    height: auto;
+  }
+
+  .text-center {
     color: white;
   }
