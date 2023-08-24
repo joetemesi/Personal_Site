@@ -54,3 +54,17 @@
   .text-center {
     color: white;
   }
+
+  .joeimage {
+    height: auto;
+    width: auto;
+    border-radius:5%;
+  }
+
+  .heading {
+    color: #13274F !important; /* This style will take precedence over other conflicting styles */
+  }
+
+  .btn-primary {
+    background-color:#13274F  !important;
+  }
