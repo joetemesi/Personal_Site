@@ -68,3 +68,8 @@
   .btn-primary {
     background-color:#13274F  !important;
   }
+
+  .iconimage {
+    width: 100px;
+    height: 100px;
+  }
