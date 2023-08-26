@@ -74,6 +74,17 @@
     height: 100px;
   }
 
+  .contact-me {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone {
+    width: 25px;
+    height: 25px;
+  }
+
 
   @media (min-width:1200px){
     .skills {
