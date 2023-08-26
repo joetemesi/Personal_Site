@@ -90,6 +90,10 @@
     border-radius: 5%;
   }
 
+  .joe-resume{
+    border-radius: 50%;
+  }
+
 
   @media (min-width:1400px){
     .skills {
