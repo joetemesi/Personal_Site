@@ -86,6 +86,10 @@
     height: 25px;
   }
 
+  .projects-image{
+    border-radius: 5%;
+  }
+
 
   @media (min-width:1400px){
     .skills {
