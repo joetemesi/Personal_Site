@@ -10,12 +10,10 @@ $(document).ready(function () {
         // Check if it has 'bi-moon-fill' class
         if (toggleIcon.hasClass('bi-moon-fill')) {
             toggleIcon.html(moonSVG);
+            $('#resumeHeading1').removeClass('dark-mode');
         } else {
             toggleIcon.html(lightbulbSVG);
+            $('#resumeHeading1').addClass('dark-mode');
         }
     });
 });
-
-
-
-
