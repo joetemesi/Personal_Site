@@ -75,6 +75,19 @@
     color: #FFFFFF;
 }
 
+#imageDiv1.dark-mode {
+  background-color: #000000;
+}
+
+#body1.dark-mode {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.resumeHeading.dark-mode {
+  color: #FFFFFF;
+}
+
   .btn-primary {
     background-color:#13274F  !important;
   }

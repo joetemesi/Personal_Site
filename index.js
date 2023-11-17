@@ -11,9 +11,16 @@ $(document).ready(function () {
         if (toggleIcon.hasClass('bi-moon-fill')) {
             toggleIcon.html(moonSVG);
             $('#resumeHeading1').removeClass('dark-mode');
+            $('#body1').removeClass('dark-mode')
+            $('.resumeHeading').removeClass('dark-mode')
+            $('.resumeHeading').addClass('heading')
         } else {
             toggleIcon.html(lightbulbSVG);
             $('#resumeHeading1').addClass('dark-mode');
+            $('#resumeHeading1').removeClass('heading');         
+            $('#body1').addClass('dark-mode')
+            $('.resumeHeading').addClass('dark-mode')
+            $('.resumeHeading').removeClass('heading')
         }
     });
 });
